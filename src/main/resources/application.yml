@@ -1,0 +1,15 @@
+server:
+ port: 8090
+spring:
+ jpa:
+  database: MYSQL
+  show-sql: true
+ datasource:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/db_ef_dsw2_somos_libres?serverTimezone=UTC
+  username: root
+  password: mysql
+  
+ application:
+  name: MICRO-LABORATORIO
+  
